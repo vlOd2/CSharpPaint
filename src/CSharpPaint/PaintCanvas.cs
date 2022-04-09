@@ -149,9 +149,9 @@ namespace CSharpPaint
         /// </summary>
         public void FillWithGarbage()
         {
-            for (int y = 0; y < frameSizeX; y++)
+            for (int y = 0; y < frameSizeY; y++)
             {
-                for (int x = 0; x < frameSizeY; x++)
+                for (int x = 0; x < frameSizeX; x++)
                 {
                     SetPixel(x, y, rnd.Next(256), rnd.Next(256), rnd.Next(256));
                 }
